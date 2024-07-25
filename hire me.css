@@ -1,0 +1,45 @@
+/* hire me.css */
+
+/* Basic reset for consistent styling */
+body, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f5f5f5; /* Light background color */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for paragraphs containing contact info */
+p {
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    max-width: 400px; /* Limiting width for better readability */
+    margin: 10px 0; /* Space between paragraphs */
+}
+
+/* Ensure only the address is formatted correctly */
+p:last-child {
+    margin-bottom: 0;
+}
+
+/* Styling for line breaks */
+br {
+    margin: 5px 0; /* Space between lines */
+}
+
+/* Strong tags can be used to emphasize certain parts, if needed */
+strong {
+    color: #000; /* Black color for emphasis */
+}
